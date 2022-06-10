@@ -1,0 +1,19 @@
+{
+  "name": "practica-consumo-api-rest",
+  "version": "1.0.0",
+  "description": "Consumo del api de \"TheMovieDB\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edrickfrost/practica-consumo-api-rest.git"
+  },
+  "author": "Edrickfrost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edrickfrost/practica-consumo-api-rest/issues"
+  },
+  "homepage": "https://github.com/edrickfrost/practica-consumo-api-rest#readme"
+}
