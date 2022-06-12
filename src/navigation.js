@@ -5,15 +5,33 @@ function navigator(){
     console.log({ location });
 
     if (location.hash.startsWith('#trends')){
-        console.log("Trends!!");
+        trendsPage();
     } else if (location.hash.startsWith('#search=')){
-        console.log("Search!!");
+        searchPage();
     } else if (location.hash.startsWith('#movie=')){
-        console.log("Movie!!");
+        movieDetailPage();
     } else if (location.hash.startsWith('#category=')){
-        console.log("Category!!");
+        categoriesPage();
     } else {
-        console.log("Home!!");
+        homePage();
     }
     location.hash;
+}
+// funciones para cada caso de location
+function homePage(){
+    console.log("HOME!!")
+    getTrendingMoviesPreview();
+    getCategoriesPreview();
+}
+function searchPage(){
+    console.log("SEARCH!!")
+}
+function movieDetailPage(){
+    console.log("MOVIE!!")
+}
+function categoriesPage(){
+    console.log("CATEGORIES!!")
+}
+function trendsPage(){
+    console.log("TRENDS!!")
 }
