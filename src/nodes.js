@@ -14,6 +14,10 @@ const movieDetailCategoriesList = $('#movieDetail .categories-list');
 const relatedMoviesContainer = $('.relatedMovies-scrollContainer');
 
 // Elements
+const headerTitle = $('.header-title');
+const arrowBtn = $('.header-arrow');
+const headerCategoryTitle = $('.header-title--categoryView');
+
 const searchFormInput = $('#seachForm input');
 const searchFormBtn = $('#searchBtn');
 const trendingBtn = $('.trendingPreview-btn');
