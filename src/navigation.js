@@ -26,6 +26,8 @@ function navigator(){
         homePage();
     }
     location.hash;
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 // funciones para cada caso de location
 function homePage(){
